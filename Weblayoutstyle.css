@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+header{
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 25px;
+    font-style: italic;
+}
+.navbar{
+    background-color: black;
+    height: 50px;
+}
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+    font-style: italic;
+}
+section{
+    width: 40%;
+    float: left;
+    font-style: italic;
+}
+article{
+    width: 40%;
+    float: left;
+    font-style: italic;
+}
+footer{
+    display: block;
+    clear: both;
+    background-color: rgb(204, 204, 204);
+    text-align: center;
+    padding: 25px;
+    font-style: italic;
+}

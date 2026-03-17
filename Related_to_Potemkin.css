@@ -1,0 +1,24 @@
+body{
+    background: linear-gradient(grey, darkorange, darkgreen)
+}
+h1{
+    color: whitesmoke;
+    font-family:'Times New Roman', Times, serif;
+}
+h4{
+    color: whitesmoke;
+}
+a{
+    color: aliceblue;
+}
+.Songlyrics{
+    color: whitesmoke;
+    
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    background: url(Potemkin.webp);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 75%;
+}

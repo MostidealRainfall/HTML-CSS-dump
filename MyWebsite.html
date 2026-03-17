@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>My lovely website</title>
+    
+    <style>
+        body{
+            background: linear-gradient(black, purple);
+            color: black;
+        }
+        h1{
+            color: aliceblue;
+            font-size: larger;
+            font-style: italic;
+        }
+        h2{
+            color: aliceblue;
+            font-size: large;
+            font-style: italic;
+        }
+        h3{
+            color: aliceblue;
+            font-size: large;
+            font-style: italic;
+        }
+        h4{
+            color: aliceblue;
+            font-size: medium;
+            font-style: italic;
+        }
+        h5{
+            color: aliceblue;
+            font-size: small;
+            font-style: italic;
+        }
+        h6{
+            color: aliceblue;
+            font-size: smaller;
+            font-style: italic;
+        }
+        p{
+            color: aliceblue;
+            font-style: italic;
+            font-size: large;
+        }
+        pre{
+            color: aliceblue;
+            font-size: large;
+            font-style: italic;
+        }
+        h5{
+            color: aliceblue;
+            font-size: medium;
+            font-style: italic;
+        }
+        a{
+            color: aliceblue;
+            font-size: medium;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is an h1 heading</h1>
+    <h2>There are a total of 6 headers</h2>
+    <h3>Pay attention to the text size</h3>
+    <h4>They are getting smaller huh?</h4>
+    <h5>They are shrinking</h5>
+    <h6>so small</h6>
+    
+    <br>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Corrupti nemo nulla vitae repudiandae accusamus, perspiciatis reiciendis ullam?
+        Quo eligendi dolorum aspernatur perspiciatis ea unde, quisquam incidunt labore pariatur odio tempora?</p>
+    <p>The Latin paragraph I made is just garbage text</p>
+
+    <p>Let me show you what pre-formatted text looks like:</p>
+    
+    <pre>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Ab laudantium beatae nulla non praesentium?
+            Vitae quia odit sapiente consequuntur, iure quis maxime consectetur ipsa architecto dignissimos eius eligendi?
+            Labore, ratione.</p>
+    </pre>
+    
+    <h5>Looks funky huh?</h5>
+
+    <!--This is a comment! 
+    This text only shows up inside this code, you and other developers can see this, but you can't see it on the website-->
+
+    <a href="Lyrics.html"
+    title="Goes to song">
+        Click me! I'm a song!
+    </a>
+    <button onclick="Show_Alert()">Show_Alert</button>
+    <hr>
+    <script>
+        function Show_Alert() {
+            alert("Stupid motherfucker")
+        }
+    </script>
+    <button onclick="Bruh()">
+        abcdefg
+    </button>
+    <h3 id = "result" style="background: rgb(255, 255, 255); color: rgb(0, 0, 0)">The result is: </h3>
+    <script>
+        function Bruh() {
+            var data = prompt("What a dumbass"); alert("Cope and seethe!");
+            var result = document.getElementById("result");
+            result.innerHTML = "LOL: " + data + "So what? I don't care lol";
+            result.style.color = "purple";
+            result.style.background = "black";
+            result.style.webkitTransitionDuration = "10s"; 
+        }
+    </script>
+</body>
+
+</html>
